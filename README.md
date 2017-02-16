@@ -1,11 +1,11 @@
-# Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/micro/micro?status.svg)](https://godoc.org/github.com/micro/micro) [![Travis CI](https://travis-ci.org/micro/micro.svg?branch=master)](https://travis-ci.org/micro/micro) [![Roadmap](https://img.shields.io/badge/roadmap-in%20progress-lightgrey.svg)](https://github.com/micro/docs/blob/master/roadmap.md) [![Go Report Card](https://goreportcard.com/badge/micro/micro)](https://goreportcard.com/report/github.com/micro/micro)
+# Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/micro/micro?status.svg)](https://godoc.org/github.com/micro/micro) [![Travis CI](https://travis-ci.org/micro/micro.svg?branch=master)](https://travis-ci.org/micro/micro) [![Go Report Card](https://goreportcard.com/badge/micro/micro)](https://goreportcard.com/report/github.com/micro/micro)
 
 
 Micro is a **microservice** toolkit. Its purpose is to simplify distributed systems development.
 
-Check out [**go-micro**](https://github.com/micro/go-micro) if you want to start writing services in Go now. Examples of how to use micro with other languages can be found in [examples/sidecar](https://github.com/micro/examples/tree/master/sidecar).
+Check out [**go-micro**](https://github.com/micro/go-micro) if you want to start writing services in Go now or [**ja-micro**](https://github.com/Sixt/ja-micro) for Java. Examples of how to use micro with other languages can be found in [examples/sidecar](https://github.com/micro/examples/tree/master/sidecar).
 
-Learn more about Micro in the introductory blog post [https://blog.micro.mu/2016/03/20/micro.html](https://blog.micro.mu/2016/03/20/micro.html) or watch the talk from the [Golang UK Conf 2016](https://www.youtube.com/watch?v=xspaDovwk34).
+Learn more about Micro in the introductory blog post [https://micro.mu/blog/2016/03/20/micro.html](https://micro.mu/blog/2016/03/20/micro.html) or watch the talk from the [Golang UK Conf 2016](https://www.youtube.com/watch?v=xspaDovwk34).
 
 Follow us on Twitter at [@MicroHQ](https://twitter.com/microhq), join the [Slack](https://micro-services.slack.com) community [here](http://slack.micro.mu/) or 
 check out the [Mailing List](https://groups.google.com/forum/#!forum/microhq).
@@ -34,7 +34,9 @@ It also allows you to leverage the Sidecar as a proxy where you may not want to 
 - **Bot** - A Hubot style bot that sits inside your microservices platform and can be interacted with via Slack, HipChat, XMPP, etc. 
 It provides the features of the CLI via messaging. Additional commands can be added to automate common ops tasks.
 
-Read the [docs](https://github.com/micro/docs) for more details on the toolkit.
+## Docs
+
+For more detailed information on the architecture, installation and use of the toolkit checkout the [docs](https://micro.mu/docs).
 
 ## Getting Started
 
@@ -42,8 +44,8 @@ Read the [docs](https://github.com/micro/docs) for more details on the toolkit.
 
 Learn how to write and run a microservice using [**go-micro**](https://github.com/micro/go-micro). 
 
-Read the [Getting Started](https://github.com/micro/docs/blob/master/getting-started.md) guide or the blog post on 
-[Writing microservices with Go-Micro](https://blog.micro.mu/2016/03/28/go-micro.html).
+Read the [Getting Started](https://micro.mu/docs/writing-a-go-service.html) guide or the blog post on 
+[Writing microservices with Go-Micro](https://micro.mu/blog/2016/03/28/go-micro.html).
 
 ### Install Micro
 
@@ -121,7 +123,7 @@ $ micro query go.micro.srv.greeter Say.Hello '{"name": "John"}'
 }
 ```
 
-Read the [docs](https://github.com/micro/docs) to learn more about entire toolkit.
+Read the [docs](https://micro.mu/docs) to learn more about entire toolkit.
 
 ## Build with plugins
 
@@ -158,10 +160,11 @@ micro --registry=etcdv3 --transport=nats --broker=kafka
 Project		|	Description
 -----		|	------
 [Micro Dashboard](https://github.com/Margatroid/micro-dashboard)	|	Dashboard for microservices toolchain micro
+[Ja-Micro](https://github.com/Sixt/ja-micro)	|	A micro compatible java framework for microservices
 
 ## Sponsors
 
 Open source development of Micro is sponsored by Sixt
 
-<a href="https://blog.micro.mu/2016/04/25/announcing-sixt-sponsorship.html"><img src="https://micro.mu/sixt_logo.png" width=150px height="auto" /></a>
+<a href="https://micro.mu/blog/2016/04/25/announcing-sixt-sponsorship.html"><img src="https://micro.mu/sixt_logo.png" width=150px height="auto" /></a>
 
